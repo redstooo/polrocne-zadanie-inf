@@ -8,7 +8,7 @@ function Header(props){
     }
 
     const [image, setImage] = useState("./polrocne-zadanie-inf/poadie.jpg");
-polrocne-zadanie-inf
+
     const defpfp = () => {
         setImage("./polrocne-zadanie-inf/def.jpg")
     }
