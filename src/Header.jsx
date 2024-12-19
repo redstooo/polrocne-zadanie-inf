@@ -7,10 +7,10 @@ function Header(props){
         more = props.kosik;
     }
 
-    const [image, setImage] = useState(".src/assets/poadie.jpg");
+    const [image, setImage] = useState("./src/assets/poadie.JPG");
 
     const defpfp = () => {
-        setImage(".src/assets/def.jpg")
+        setImage("./src/assets/def.JPG")
     }
 
 
@@ -21,7 +21,7 @@ function Header(props){
                 <div class="navbar-content">
 
                     <div class="logo">
-                        <Link to="/"><img src="/src/assets/logo.jpg" alt="Logo"/></Link>
+                        <Link to="/"><img src="./src/assets/logo.JPG" alt="Logo"/></Link>
                     </div>
         
 
@@ -35,7 +35,7 @@ function Header(props){
                         <p><Link to="/polrocne-zadanie-inf/mysi" className="linky">Myši</Link></p>
                     </div>
         
-                    <img id="kokos" src="./src/assets/cart.jpg"/>
+                    <img id="kokos" src="./src/assets/cart.JPG"/>
                     <p className="kosik-count">{more}</p>
                     <div class="ucet">
                         <img id="more" src={image}/>
