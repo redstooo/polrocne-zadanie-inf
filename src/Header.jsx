@@ -7,10 +7,10 @@ function Header(props){
         more = props.kosik;
     }
 
-    const [image, setImage] = useState("./src/assets/poadie.jpg");
+    const [image, setImage] = useState(".src/assets/poadie.jpg");
 
     const defpfp = () => {
-        setImage("./src/assets/def.jpg")
+        setImage(".src/assets/def.jpg")
     }
 
 
@@ -21,18 +21,18 @@ function Header(props){
                 <div class="navbar-content">
 
                     <div class="logo">
-                        <Link to="/"><img src="./src/assets/logo.jpg" alt="Logo"/></Link>
+                        <Link to="/"><img src="/src/assets/logo.jpg" alt="Logo"/></Link>
                     </div>
         
 
                     <div class="menu">
-                        <p><Link to="/procesory" className="linky">Procesory</Link></p>
-                        <p><Link to="/ram" className="linky">RAM</Link></p>
-                        <p><Link to="/grafickeKarty" className="linky">Grafické Karty</Link></p>
-                        <p><Link to="/maticneDosky" className="linky">Matičné Dosky</Link></p>
-                        <p><Link to="/monitor" className="linky">Monitor</Link></p>
-                        <p><Link to="/klavesnice" className="linky">Klávesnice</Link></p>
-                        <p><Link to="/mysi" className="linky">Myši</Link></p>
+                        <p><Link to="/polrocne-zadanie-inf/procesory" className="linky">Procesory</Link></p>
+                        <p><Link to="/polrocne-zadanie-inf/ram" className="linky">RAM</Link></p>
+                        <p><Link to="/polrocne-zadanie-inf/grafickeKarty" className="linky">Grafické Karty</Link></p>
+                        <p><Link to="/polrocne-zadanie-inf/maticneDosky" className="linky">Matičné Dosky</Link></p>
+                        <p><Link to="/polrocne-zadanie-inf/monitor" className="linky">Monitor</Link></p>
+                        <p><Link to="/polrocne-zadanie-inf/klavesnice" className="linky">Klávesnice</Link></p>
+                        <p><Link to="/polrocne-zadanie-inf/mysi" className="linky">Myši</Link></p>
                     </div>
         
                     <img id="kokos" src="./src/assets/cart.jpg"/>
