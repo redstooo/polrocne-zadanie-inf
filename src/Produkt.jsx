@@ -5,17 +5,17 @@ import Card from './Card';
 
 function Produkt(props){
     
-    const [intelImg, setIntelImg] = useState("./src/assets/intelcore.jpg")
+    const [intelImg, setIntelImg] = useState("./intelcore.jpg")
 
     const changeImg = (cislo) => {
         if(cislo === 1){
-            setIntelImg("./src/assets/intelcore.jpg")
+            setIntelImg("./intelcore.jpg")
         }
         else if (cislo === 2){
-            setIntelImg("./src/assets/intel9.jpg")
+            setIntelImg("./intel9.jpg")
         }
         else if(cislo === 3){
-            setIntelImg("./src/assets/intel99.jpg")
+            setIntelImg("./intel99.jpg")
         }
     }
 
@@ -57,9 +57,9 @@ function Produkt(props){
             <br />
             <div className="produkt-nav">
                 <ul>
-                    <li><Link to="/" style={{ textDecoration: 'none' }}>Domov &nbsp;</Link></li>
+                    <li><Link to="/polrocne-zadanie-inf/" style={{ textDecoration: 'none' }}>Domov &nbsp;</Link></li>
                     <li>{">"}</li>
-                    <li><Link to="/procesory" style={{ textDecoration: 'none' }}>&nbsp; Procesory &nbsp;</Link></li>
+                    <li><Link to="/polrocne-zadanie-inf/procesory" style={{ textDecoration: 'none' }}>&nbsp; Procesory &nbsp;</Link></li>
                 </ul>
             </div>
             <h1>Intel core i9</h1>
@@ -67,9 +67,9 @@ function Produkt(props){
             <div className="showcase">
                 <img src={intelImg} className="intel-img"/>
                 <ul>
-                    <li><img src="./src/assets/intelcore.jpg" className="img" onClick={() => changeImg(1)}/></li>
-                    <li><img src="./src/assets/intel9.jpg" className="img" onClick={() => changeImg(2)}/></li>
-                    <li><img src="./src/assets/intel99.jpg" className="img" onClick={() => changeImg(3)}/></li>
+                    <li><img src="./intelcore.jpg" className="img" onClick={() => changeImg(1)}/></li>
+                    <li><img src="./intel9.jpg" className="img" onClick={() => changeImg(2)}/></li>
+                    <li><img src="./intel99.jpg" className="img" onClick={() => changeImg(3)}/></li>
                 </ul>
             </div>
             <div className="nieco">

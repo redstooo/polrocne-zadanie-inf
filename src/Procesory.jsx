@@ -10,7 +10,7 @@ function Procesory(){
             <br />
             <br />
 
-            <img className="bgproc" src="./src/assets/bgklavesnica.png"/>
+            <img className="bgproc" src="./bgklavesnica.jpg"/>
             <h1 className="proce">Procesory</h1>
 
             <div className="mainpro">

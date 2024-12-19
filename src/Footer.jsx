@@ -7,8 +7,8 @@ function Footer(){
                 <p id="kokos">Po-Pi: 9:00 - 17:30</p>
                 <p id="kokor">Zavolaj nám: +421 789 123 456</p>
         
-                <a href="https://www.facebook.com/sgcr.kosice?locale=sk_SK" target="_blank"><img id="fb" src="./src/assets/facebook.jpg"/></a>
-                <a href="https://www.instagram.com/gymnaziumkatkinpark/" target="_blank"><img id="ig" src="./src/assets/instagram.jpg"/></a>
+                <a href="https://www.facebook.com/sgcr.kosice?locale=sk_SK" target="_blank"><img id="fb" src="./facebook.jpg"/></a>
+                <a href="https://www.instagram.com/gymnaziumkatkinpark/" target="_blank"><img id="ig" src="./instagram.jpg"/></a>
                 <hr className="medzerahrr"/>
             </div>
             <div class="footer">
@@ -42,7 +42,7 @@ function Footer(){
                 <br />
                 <h4 className="pockom">Adresa</h4>
                 <hr />
-                <img src="./src/assets/karty.jpg"/>
+                <img src="./karty.jpg"/>
             </div>
 
         </footer>

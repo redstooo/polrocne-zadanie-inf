@@ -59,7 +59,7 @@ function Card(props){
     return(
         <div className="card">
             <p>{sklad}</p>
-            <div>{props.pic == "./src/assets/intelcore.jpg" ? <Link to="/produktshowcase"><img className="card-img" src={props.pic} alt="product picture" width="200px"/></Link> : <img className="card-img" src={props.pic} alt="product picture" width="200px"/>}</div>
+            <div>{props.pic == "./intelcore.jpg" ? <Link to="/polrocne-zadanie-inf/produktshowcase"><img className="card-img" src={props.pic} alt="product picture" width="200px"/></Link> : <img className="card-img" src={props.pic} alt="product picture" width="200px"/>}</div>
             <br />
             <p>{hviezda}</p>
             <p className="card-title">{props.text}</p>
