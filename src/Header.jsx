@@ -7,10 +7,10 @@ function Header(props){
         more = props.kosik;
     }
 
-    const [image, setImage] = useState("/public/poadie.jpg");
-
+    const [image, setImage] = useState("./polrocne-zadanie-inf/poadie.jpg");
+polrocne-zadanie-inf
     const defpfp = () => {
-        setImage("/public/def.jpg")
+        setImage("./polrocne-zadanie-inf/def.jpg")
     }
 
 
