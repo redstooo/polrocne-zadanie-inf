@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://redstooo.github.io/polrocne-zadanie-inf",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
