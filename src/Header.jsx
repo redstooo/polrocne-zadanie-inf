@@ -7,10 +7,10 @@ function Header(props){
         more = props.kosik;
     }
 
-    const [image, setImage] = useState("./polrocne-zadanie-inf/poadie.jpg");
+    const [image, setImage] = useState("https://redstooo.github.io/polrocne-zadanie-inf/public/poadie.jpg");
 
     const defpfp = () => {
-        setImage("./polrocne-zadanie-inf/def.jpg")
+        setImage("https://redstooo.github.io/polrocne-zadanie-inf/public/def.jpg")
     }
 
 
