@@ -26,7 +26,7 @@ function App() {
       <Header kosik={kosikPocet} />
       <Routes>
         <Route
-          path="/"
+          path="/polrocne-zadanie-inf"
           element={
             <>
               <br />
@@ -56,14 +56,14 @@ function App() {
           }
         />
 
-        <Route path="/procesory" element={<Procesory />} />
-        <Route path="/ram" element={<Ostatne />} />
-        <Route path="/grafickeKarty" element={<Ostatne />} />
-        <Route path="/maticneDosky" element={<Ostatne />} />
-        <Route path="/monitor" element={<Ostatne />} />
-        <Route path="/klavesnice" element={<Ostatne />} />
-        <Route path="/mysi" element={<Ostatne />} />
-        <Route path="/produktshowcase" element={<Produkt klik={produktSet} updateKosik={kosikClick}/>} />
+        <Route path="/polrocne-zadanie-inf/procesory" element={<Procesory />} />
+        <Route path="/polrocne-zadanie-inf/ram" element={<Ostatne />} />
+        <Route path="/polrocne-zadanie-inf/grafickeKarty" element={<Ostatne />} />
+        <Route path="/polrocne-zadanie-inf/maticneDosky" element={<Ostatne />} />
+        <Route path="/polrocne-zadanie-inf/monitor" element={<Ostatne />} />
+        <Route path="/polrocne-zadanie-inf/klavesnice" element={<Ostatne />} />
+        <Route path="/polrocne-zadanie-inf/mysi" element={<Ostatne />} />
+        <Route path="/polrocne-zadanie-inf/produktshowcase" element={<Produkt klik={produktSet} updateKosik={kosikClick}/>} />
       </Routes>
       <Footer />
     </>
