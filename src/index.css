@@ -7,7 +7,7 @@
 .card{
   border-radius: 15px;
   padding: 1px 32px;
-  margin: 50px 20px;
+  margin: 50px 18px;
   text-align: center;
   min-width: 270px;
   max-width: 500px;
@@ -117,6 +117,23 @@
 
 .košík-button:hover{
   background-color: rgb(168, 173, 178);
+  cursor: pointer;
+}
+
+.košík-button-pridané{
+  background-color: rgb(255, 255, 255);
+  font-size: 20px;
+  color: green;
+  padding: 2px;
+  border-radius: 15px;
+  margin-bottom: 5px;
+  padding: 5px 20px;
+  min-width: 210px;
+  border: 2px white solid;
+}
+
+.košík-button-pridané:hover{
+  background-color: rgb(202, 209, 215);
   cursor: pointer;
 }
 
@@ -415,13 +432,14 @@
 
 .black-friday #text1{
   left: 80px;
-  top: 31px;
+  top: 51px;
   font-size: 64px;
 }
 
 .black-friday #text2{
   left: 160px;
-  top: 240px;
+  top: 270px;
+  font-size: 44px;
 }
 
 .black-friday button{

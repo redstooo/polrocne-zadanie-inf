@@ -1,24 +1,26 @@
 import { Link } from 'react-router-dom';
+import React, { useState, useEffect } from "react";
 
 function Card(props){
 
+    const kluc = props.id
+
+    const [pridane, setPridane] = useState(() => {
+        const data = localStorage.getItem(kluc);
+        return data !== null ? JSON.parse(data) : false;
+    });
 
 
+    useEffect(() =>{
+        localStorage.setItem(kluc, JSON.stringify(pridane));
+    }, [pridane])
 
-    const handleClick = (e) => {
-        e.target.textContent="Načítava sa..."
+    const handleClick = () => {
         setTimeout(() => {
-            e.target.textContent = "Pridané do košíka"
-            e.target.style.backgroundColor = "white";
-            e.target.style.color = "green";
-            e.target.style.border = "2px white solid";
-            e.target.style.cursor = "default";
-            e.target.disabled = true;
+            setPridane(!pridane);
         }, 500);
     }
 
-
-    
 
         let hviezda = "";
         if(props.hviezda === "5"){
@@ -42,14 +44,40 @@ function Card(props){
 
     let tlacidlo = "";
     if(props.naSklade){
-        tlacidlo = <button className="košík-button"onClick={(e) => {
-            handleClick(e);
-            setTimeout(() => {
-                props.updateKosik();
-            }, 500);
+        if(pridane){
+            tlacidlo = <button className="košík-button-pridané"onClick={() => {
+                handleClick();
+                setTimeout(() => {
+                    if(props.pic == "./intelcore.jpg"){
+                        props.updateKosik(false);
+                        props.updateKosik2(false);
+                    }
+                    else{
+                        props.updateKosik(false);
+                    }
+                }, 500);
+    
+            }}
+            >{"Pridané do košíka"} </button> 
+        }
+        else{
+            tlacidlo = <button className="košík-button"onClick={() => {
+                handleClick();
+                setTimeout(() => {
+                    if(props.pic == "./intelcore.jpg"){
+                        props.updateKosik(true);
+                        props.updateKosik2(true);
+                    }
+                    else{
+                        props.updateKosik(true);
+                    }
+                }, 500);
+    
+            }}
+            >{"Pridať do košíka"} </button> 
+        }
 
-        }}
-        >{"Pridať do košíka"} </button> 
+
     }
     else{
         tlacidlo = <button className="košík-button-false">{"Vypredané"} </button> 

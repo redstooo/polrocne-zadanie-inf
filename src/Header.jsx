@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 function Header(props){
     let more = "";
@@ -17,15 +17,15 @@ function Header(props){
 
     return(
         <header>
-            <div class="navbar">
-                <div class="navbar-content">
+            <div className="navbar">
+                <div className="navbar-content">
 
-                    <div class="logo">
+                    <div className="logo">
                         <Link to="/polrocne-zadanie-inf/"><img src="./logo.jpg" alt="Logo"/></Link>
                     </div>
         
 
-                    <div class="menu">
+                    <div className="menu">
                         <p><Link to="/polrocne-zadanie-inf/procesory" className="linky">Procesory</Link></p>
                         <p><Link to="/polrocne-zadanie-inf/ram" className="linky">RAM</Link></p>
                         <p><Link to="/polrocne-zadanie-inf/grafickeKarty" className="linky">Grafické Karty</Link></p>
@@ -37,9 +37,9 @@ function Header(props){
         
                     <img id="kokos" src="./cart.jpg"/>
                     <p className="kosik-count">{more}</p>
-                    <div class="ucet">
+                    <div className="ucet">
                         <img id="more" src={image}/>
-                        <div class="dropdown-menu">
+                        <div className="dropdown-menu">
                             <ul>
                                 <li onClick={defpfp}>Logout</li>
                             </ul>

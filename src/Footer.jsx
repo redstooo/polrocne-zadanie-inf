@@ -3,7 +3,7 @@ function Footer(){
 
     return(
         <footer>
-            <div class="top-bar">
+            <div className="top-bar">
                 <p id="kokos">Po-Pi: 9:00 - 17:30</p>
                 <p id="kokor">Zavolaj nám: +421 789 123 456</p>
         
@@ -11,7 +11,7 @@ function Footer(){
                 <a href="https://www.instagram.com/gymnaziumkatkinpark/" target="_blank"><img id="ig" src="./instagram.jpg"/></a>
                 <hr className="medzerahrr"/>
             </div>
-            <div class="footer">
+            <div className="footer">
                 <h2>Prihlás sa tu ---&gt;</h2>
                 <small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Buď prvý kto sa dozvie o výhodných <br/> 
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ponukách a zľavách.</small>
