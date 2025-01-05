@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Card from './Card';
 
 
@@ -19,33 +19,47 @@ function Produkt(props){
         }
     }
 
-    const handleClick = (e) => {
-        e.target.textContent="Načítava sa..."
+    const [pridane, setPridane] = useState(() => {
+        const data = localStorage.getItem("PRODUKT");
+        return data !== null ? JSON.parse(data) : false;
+    });
+    
+    useEffect(() =>{
+        localStorage.setItem("1", JSON.stringify(pridane));
+    }, [pridane])
+
+    const handleClick = () => {
         setTimeout(() => {
-            e.target.textContent = "Pridané do košíka"
-            e.target.style.backgroundColor = "white";
-            e.target.style.color = "green";
-            e.target.style.border = "2px white solid";
-            e.target.style.cursor = "default";
-            e.target.disabled = true;
+            setPridane(!pridane)
         }, 500);
     }
 
     let tlacidlo = "";
-    if(props.klik){
-        tlacidlo = <p className="nieco2">Pridané do košíka</p>
+    if(pridane){
+        tlacidlo = <button className="košík-button-pridané"onClick={() => {
+            handleClick();
+            setTimeout(() => {
+                props.updateKosik(false);
+                props.updateKosik2(false);
+                
+            }, 500);
+
+        }}
+        >{"Pridané do košíka"} </button> 
     }
     else{
-        tlacidlo = <button className="nieco3"onClick={(e) => {
-            handleClick(e);
+        tlacidlo = <button className="košík-button"onClick={() => {
+            handleClick();
             setTimeout(() => {
-                props.updateKosik();
+                props.updateKosik(true);
+                props.updateKosik2(true);
+                
             }, 500);
-    
+
         }}
         >{"Pridať do košíka"} </button> 
-    
     }
+
 
     return(
         <div className='produkt-container'>

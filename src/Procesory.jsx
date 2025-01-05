@@ -1,6 +1,6 @@
+import CardProcesory from "./CardProcesory";
 
-
-function Procesory(){
+function Procesory(props){
 
     return(
         <>
@@ -41,6 +41,13 @@ function Procesory(){
 
                     <h4 className="nieco9">Mená filtrov</h4>
                     <button className="filter">aplikované filtre (0)</button>
+                </div>
+
+                <div className="produkty">
+                    <CardProcesory id="a" pic="./procesor1.jpg" naSklade={false} hviezda="5" price0="301" price="401" updateKosik={props.kosikClick} updateKosik2={props.kosikClick2}/>
+                    <CardProcesory id="b" pic="./procesor2.jpg" naSklade={true} hviezda="5" price0="301" price="401" updateKosik={props.kosikClick} updateKosik2={props.kosikClick2}/>
+                    <CardProcesory id="c" pic="./procesor3.jpg" naSklade={true} hviezda="5" price0="302" price="402" updateKosik={props.kosikClick} updateKosik2={props.kosikClick2}/>
+                    <CardProcesory id="d" pic="./procesor4.jpg" naSklade={true} hviezda="5" price0="306" price="406" updateKosik={props.kosikClick} updateKosik2={props.kosikClick2}/>
                 </div>
             </div>
         </>

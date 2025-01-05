@@ -1,3 +1,5 @@
+/* chaos */
+
 *{
   margin: 0;
   padding: 0;
@@ -11,7 +13,7 @@
   text-align: center;
   min-width: 270px;
   max-width: 500px;
-  display: inline-block; /* aby si mohol mat viacej kariet vedla seba */
+  display: inline-block; /* aby som mohol mat viacej kariet vedla seba */
 }
 
 .card:hover{
@@ -682,8 +684,24 @@ s{
 
 
 .mainpro{
-  margin: 60px 15px;
+  margin: -30px 15px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 50px;
 }
+
+.mainpro .produkty{
+  margin-top: 150px;
+}
+
+.mainpro .produktpro{
+  width: 1001px;
+  height: 301px;
+  margin-bottom: 50px;
+  box-shadow: 0 2px 6px hsla(0, 0%, 0%, 0.3);
+}
+
 
 .mainpro .bgfilter{
   margin-top: 140px;
@@ -734,6 +752,26 @@ s{
   margin-right: 5px;
 }
 
+.košík-button2{
+  border: #0156FF 2px solid;
+  border-radius: 30px;
+  padding: 6px 37px;
+  color: #0156FF;
+  background-color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.mainpro .sklad{
+  margin-left: 850px;
+  font-size: 20px;
+  padding-top: 15px;
+}
+
+.košík-button2:hover{
+  cursor: pointer;
+}
+
 .mainpro .bgfilter .cervena{
   background-color: red;
   width: 20px;
@@ -777,4 +815,33 @@ s{
 
 .mainpro .bgfilter .farby{
   margin-bottom: 80px;
+}
+
+.mainpro .hviezdy{
+  font-size: 10px;
+  padding-left: 20px;
+  margin-top: 15px;
+}
+
+.mainpro s{
+  padding-left: 259px;
+}
+
+.mainpro h3{
+  padding-left: 301px;
+  margin-top: -20px;
+}
+
+.mainpro .ceny2{
+  margin-top: -101px;
+}
+
+.mainpro .tlacidlo2{
+  padding-left: 215px;
+}
+
+.mainpro .kosik-ikona{
+  margin-left: -227px;
+  border-radius: 10px;
+  margin-bottom: -10px;
 }

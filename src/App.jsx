@@ -104,14 +104,14 @@ function App() {
           }
         />
 
-        <Route path="/polrocne-zadanie-inf/procesory" element={<Procesory />} />
+        <Route path="/polrocne-zadanie-inf/procesory" element={<Procesory kosikClick={kosikClick} kosikClick2={kosikClick2}/>} />
         <Route path="/polrocne-zadanie-inf/ram" element={<Ostatne />} />
         <Route path="/polrocne-zadanie-inf/grafickeKarty" element={<Ostatne />} />
         <Route path="/polrocne-zadanie-inf/maticneDosky" element={<Ostatne />} />
         <Route path="/polrocne-zadanie-inf/monitor" element={<Ostatne />} />
         <Route path="/polrocne-zadanie-inf/klavesnice" element={<Ostatne />} />
         <Route path="/polrocne-zadanie-inf/mysi" element={<Ostatne />} />
-        <Route path="/polrocne-zadanie-inf/produktshowcase" element={<Produkt klik={produktSet} updateKosik={kosikClick}/>} />
+        <Route path="/polrocne-zadanie-inf/produktshowcase" element={<Produkt updateKosik={kosikClick} updateKosik2={kosikClick2}/>} />
       </Routes>
       <Footer />
     </>
