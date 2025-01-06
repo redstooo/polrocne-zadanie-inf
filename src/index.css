@@ -707,7 +707,7 @@ s{
   margin-top: 140px;
   background-color: #F5F7FF;
   width: 300px;
-  height: 780px;
+  height: 700px;
   padding: 50px;
 }
 
@@ -780,14 +780,7 @@ s{
   display: inline-block;
 }
 
-.mainpro .bgfilter .filter{
-  color: white;
-  background-color: hsl(221, 74%, 48%);
-  border: none;
-  padding: 8px 32px;
-  font-weight: bolder;
-  border-radius: 20px;
-}
+
 
 .mainpro .bgfilter .kat p{
   padding-top: 20px;
@@ -824,24 +817,49 @@ s{
 }
 
 .mainpro s{
-  padding-left: 259px;
+  padding-left: 269px;
+  font-size: 25px;
 }
 
 .mainpro h3{
-  padding-left: 301px;
-  margin-top: -20px;
+  padding-left: 350px;
+  margin-top: -35px;
+  font-size: 29px;
 }
 
 .mainpro .ceny2{
-  margin-top: -101px;
+  margin-top: -133px;
 }
 
 .mainpro .tlacidlo2{
-  padding-left: 215px;
+  padding-left: 265px;
+  padding-top: 20px;
 }
 
 .mainpro .kosik-ikona{
   margin-left: -227px;
   border-radius: 10px;
   margin-bottom: -10px;
+}
+
+.produktpro .produkt-popisok{
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 270px;
+  margin-top: -180px;
+  font-size: 20px;
+  
+}
+
+.popiskypro{
+  margin-left: 551px;
+  margin-top: -20px;
+  font-size: 20px;
+}
+
+.popiskypro .pozadiepodpora{
+  margin-top: 5px;
+  background-color: #F5F7FF;
+  width: 370px;
+  padding: 5px;
+  margin-left: -5px;
 }

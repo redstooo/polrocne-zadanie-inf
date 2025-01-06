@@ -39,15 +39,14 @@ function Procesory(props){
                         <div className="cervena"></div>
                     </div>
 
-                    <h4 className="nieco9">Mená filtrov</h4>
-                    <button className="filter">aplikované filtre (0)</button>
+
                 </div>
 
                 <div className="produkty">
-                    <CardProcesory id="a" pic="./procesor1.jpg" naSklade={false} hviezda="5" price0="301" price="401" updateKosik={props.kosikClick} updateKosik2={props.kosikClick2}/>
-                    <CardProcesory id="b" pic="./procesor2.jpg" naSklade={true} hviezda="5" price0="301" price="401" updateKosik={props.kosikClick} updateKosik2={props.kosikClick2}/>
-                    <CardProcesory id="c" pic="./procesor3.jpg" naSklade={true} hviezda="5" price0="302" price="402" updateKosik={props.kosikClick} updateKosik2={props.kosikClick2}/>
-                    <CardProcesory id="d" pic="./procesor4.jpg" naSklade={true} hviezda="5" price0="306" price="406" updateKosik={props.kosikClick} updateKosik2={props.kosikClick2}/>
+                    <CardProcesory id="a" pic="./procesor1.jpg" popisok="AMD Ryzen 5 5600" frekvencia="Frekvencia - 3,5 GHz (3,5 GHz)" podpora="Podporovaný typ pamäte -  DDR4" naSklade={true} hviezda="5" price0="90.99" price="86.99€" updateKosik={props.kosikClick} updateKosik2={props.kosikClick2}/>
+                    <CardProcesory id="b" pic="./procesor2.jpg" popisok="AMD Ryzen 7 7700X" frekvencia="Frekvencia - 4,5 GHz (4,5 GHz)" podpora="Podporovaný typ pamäte - DDR5" naSklade={true} hviezda="5" price0="370.99" price="340.99€" updateKosik={props.kosikClick} updateKosik2={props.kosikClick2}/>
+                    <CardProcesory id="c" pic="./procesor3.jpg" popisok="Intel Core i5-14600KF" frekvencia="Frekvencia - 3,5 GHz (3,5 GHz)" podpora="Podporovaný typ pamäte - DDR4/DDR5" naSklade={true} hviezda="5" price0="215.99" price="201.99€" updateKosik={props.kosikClick} updateKosik2={props.kosikClick2}/>
+                    <CardProcesory id="d" pic="./procesor4.jpg" popisok="Intel Core i9-14900KF" frekvencia="Frekvencia - 3,2 GHz (3,2 GHz)" podpora="Podporovaný typ pamäte - DDR4/DDR5" naSklade={true} hviezda="5" price0="533.99" price="522.99€" updateKosik={props.kosikClick} updateKosik2={props.kosikClick2}/>
                 </div>
             </div>
         </>

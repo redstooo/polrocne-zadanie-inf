@@ -79,11 +79,17 @@ function CardProcesory(props){
             <p className="sklad">{sklad}</p>
             <img className="produktpropic" src={props.pic} width="220px"/>
             <p className="hviezdy">{hviezda}</p>
+            
             <div className="ceny2">
                 <h4><s>{props.price0}</s></h4>
                 <h3>{props.price}</h3>
             </div>
             <div className="tlacidlo2">{tlacidlo}</div>
+            <p className="produkt-popisok">{props.popisok}</p>
+            <div className="popiskypro">
+                <p>{props.frekvencia}</p>
+                <p className="pozadiepodpora">{props.podpora}</p>
+            </div>
         </div>
     )
 }
