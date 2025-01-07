@@ -61,7 +61,7 @@ function CardProcesory(props){
         
                 }}
                 >{"Pridať do košíka"} </button> 
-                <img className="kosik-ikona" src="./kosik-ikona.jpg" width="30px"/>
+                <img className="kosik-ikona" src="./kosik-ikona.jpg" width="20px"/>
                 </>
             }
     

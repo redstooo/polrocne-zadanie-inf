@@ -12,7 +12,7 @@ function Footer(){
                 <hr className="medzerahrr"/>
             </div>
             <div className="footer">
-                <h2>Prihlás sa tu ---&gt;</h2>
+                <h2>Prihlás sa tu -&gt;</h2>
                 <br />
                 <small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Buď prvý kto sa dozvie o výhodných <br/> 
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ponukách a zľavách.</small>
