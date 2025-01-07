@@ -593,7 +593,7 @@ s{
 
 .footer h2{
   font-weight: 100;
-  margin-left: -40px;
+  margin-left: -75px;
 }
 
 
@@ -699,7 +699,7 @@ s{
 }
 
 .mainpro .produktpro{
-  width: 764px;
+  width: 830px;
   height: 301px;
   margin-bottom: 50px;
   box-shadow: 0 2px 6px hsla(0, 0%, 0%, 0.3);
@@ -766,7 +766,7 @@ s{
 }
 
 .mainpro .sklad{
-  margin-left: 650px;
+  margin-left: 699px;
   font-size: 20px;
   padding-top: 15px;
 }
@@ -856,13 +856,13 @@ s{
 .popiskypro{
   margin-left: 551px;
   margin-top: -20px;
-  font-size: 10px;
+  font-size: 15px;
 }
 
 .popiskypro .pozadiepodpora{
   margin-top: 5px;
   background-color: #F5F7FF;
-  width: 200px;
+  width: 233px;
   padding: 5px;
   margin-left: -5px;
 }
