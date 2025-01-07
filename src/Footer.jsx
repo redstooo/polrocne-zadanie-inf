@@ -13,9 +13,12 @@ function Footer(){
             </div>
             <div className="footer">
                 <h2>Prihlás sa tu ---&gt;</h2>
+                <br />
                 <small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Buď prvý kto sa dozvie o výhodných <br/> 
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ponukách a zľavách.</small>
+                
                 <input className="email-input" type="email" placeholder="Tvoj Email" />
+
                 <button className="button-predplatne">Predplatné</button>
                 <h4 className="informacie-text">Informácie</h4>
                 <small className="carrat">⌄</small>

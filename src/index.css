@@ -8,7 +8,7 @@
 
 .card{
   border-radius: 15px;
-  padding: 1px 32px;
+  padding: 1px 15px;
   margin: 50px 18px;
   text-align: center;
   min-width: 270px;
@@ -226,7 +226,7 @@
 
 .top-bar #kokor{
   margin:  0;
-  margin-left: 1200px;
+  margin-left: 1080px;
   position: absolute;
 }
 
@@ -266,7 +266,7 @@
 .logo img {
   height: 80px;
   border-radius: 1000px;
-  margin-left: -90px;
+  margin-left: -40px;
 }
 
 
@@ -546,9 +546,9 @@
   padding: 0px 5px;
   color: white;
   font-size: 15px;
-  margin: -100px;
+  margin: -80px;
   font-family: Arial, Helvetica, sans-serif;
-  margin-top: -120px;
+  margin-top: -105px;
 }
 
 s{
@@ -596,11 +596,13 @@ s{
 }
 
 
+
+
 .footer .email-input{
   position: absolute;
   color: white;
   right: 571px;
-  margin-top: -50px;
+  margin-top: -62px;
   background-color: black;
   border-radius: 3px;
   border: 3px solid white;
@@ -613,7 +615,7 @@ s{
   background-color:hsl(232, 70%, 50%);
   right: 438px;
   padding: 10px;
-  margin-top: -50px;
+  margin-top: -62px;
   border-radius: 20px;
   width: 120px;
   color: white;
@@ -696,7 +698,7 @@ s{
 }
 
 .mainpro .produktpro{
-  width: 1001px;
+  width: 944px;
   height: 301px;
   margin-bottom: 50px;
   box-shadow: 0 2px 6px hsla(0, 0%, 0%, 0.3);

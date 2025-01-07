@@ -114,6 +114,7 @@ function App() {
         <Route path="/polrocne-zadanie-inf/produktshowcase" element={<Produkt updateKosik={kosikClick} updateKosik2={kosikClick2}/>} />
       </Routes>
       <Footer />
+      <p>Radko Aproved since 7th January 1:03:55AM 2025</p>
     </>
   );
 }

@@ -46,8 +46,7 @@ function CardProcesory(props){
                 tlacidlo = <button className="košík-button-pridané"onClick={() => {
                     handleClick();
                     setTimeout(() => {
-                        props.updateKosik(false);
-                        props.updateKosik2(false);        
+                        props.updateKosik(false);      
                     }, 500);
         
                 }}
@@ -57,9 +56,7 @@ function CardProcesory(props){
                 tlacidlo = <><button className="košík-button2"onClick={() => {
                     handleClick();
                     setTimeout(() => {
-                        props.updateKosik(true);
-                        props.updateKosik2(true);
-                        
+                        props.updateKosik(true);   
                     }, 500);
         
                 }}

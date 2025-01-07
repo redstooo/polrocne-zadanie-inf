@@ -19,8 +19,8 @@ function Procesory(props){
                     <button className="cis">Vyčistiť filtre</button>
                     <div className="kat">
                         <h4>Kategórie</h4>
-                        <p>RAM Kingston</p>
-                        <p>RAM G.skill</p>
+                        <p>AMD</p>
+                        <p>Ryzen</p>
                     </div>
 
                     <h4 className="abc">Cena</h4>
